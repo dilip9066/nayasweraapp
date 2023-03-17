@@ -1,5 +1,5 @@
 import React from "react";
-
+import { Link } from "react-router-dom";
 export default function Sidebar() {
   return (
     <div>
@@ -24,44 +24,44 @@ export default function Sidebar() {
             </li>
 
             <li className="active">
-              <a href="index.html">
+              <Link to="/dashboard">
                 <i className="feather icon-home"></i>
                 <span className="menu-title" data-i18n="Project Summary">
-                  Home
+                  Dashboard
                 </span>
-              </a>
+              </Link>
             </li>
             <li className="">
-              <a href="report.html">
+              <Link to="/profile">
                 <i className="feather icon-file-text"></i>
                 <span className="menu-title" data-i18n="Project Summary">
-                  Report
+                  Profile
                 </span>
-              </a>
+              </Link>
             </li>
             <li className="">
-              <a href="details.html">
+              <Link to="/forms">
                 <i className=" feather icon-edit"></i>
                 <span className="menu-title" data-i18n="Project Summary">
                   Forms
                 </span>
-              </a>
+              </Link>
             </li>
             <li className="">
-              <a href="teamdetails.html">
+              <Link href="teamdetails.html">
                 <i className="feather icon-airplay"></i>
                 <span className="menu-title" data-i18n="Project Summary">
                   Team Info
                 </span>
-              </a>
+              </Link>
             </li>
             <li className="">
-              <a href="/account.html">
+              <Link href="/account.html">
                 <i className="feather icon-globe"></i>
                 <span className="menu-title" data-i18n="Project Summary">
                   Account Setting
                 </span>
-              </a>
+              </Link>
             </li>
           </ul>
         </div>

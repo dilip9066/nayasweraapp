@@ -8,7 +8,7 @@ export default function DashboardCards() {
 
         <div
           className="content-wrapper "
-          style={{ backgroundColor: "antiquewhite;" }}
+          style={{ backgroundColor: "antiquewhite" }}
         >
           <div className="content-header row">
             <div className="content-header-left col-md-6 col-12 mb-2">
@@ -181,7 +181,7 @@ export default function DashboardCards() {
                       </div>
                       <div
                         className="progress mt-1 mb-0"
-                        style={{ height: "7px;" }}
+                        style={{ height: "7px" }}
                       >
                         <div
                           className="progress-bar bg-warning"
@@ -211,7 +211,7 @@ export default function DashboardCards() {
                       </div>
                       <div
                         className="progress mt-1 mb-0"
-                        style={{ height: "7px;" }}
+                        style={{ height: "7px" }}
                       >
                         <div
                           className="progress-bar bg-info"
